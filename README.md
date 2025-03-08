@@ -21,6 +21,7 @@ Whether you're testing CAN controllers, debugging protocol implementations, or l
 - Supports error class, arbitration loss, protocol errors, transceiver faults
 - Customizable error counters and data payload
 - Real-time error frame generation
+- Now part of [**can-utils**](https://github.com/linux-can/can-utils)
 
 ### canerrdump (CAN Error Frame Monitor)
 
