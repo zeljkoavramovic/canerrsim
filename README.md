@@ -2,26 +2,29 @@
 
 Simulate and monitor [CAN bus](https://en.wikipedia.org/wiki/CAN_bus) error messages using Linux and [SocketCAN](https://en.wikipedia.org/wiki/SocketCAN).
 
-[![License](https://img.shields.io/badge/License-LGPL%202.1%20or%20later%20%7C%20BSD--3--Clause-blue.svg)](https://spdx.org/licenses/)
+This project provides two powerful tools:
+
+1. **canerrsim**: A CAN error frame simulator for generating custom error conditions.
+2. **canerrdump**: A CAN error frame monitor for real-time error analysis.
+
+Whether you're testing CAN controllers, debugging protocol implementations, or learning about CAN error handling, these tools are designed to make your life easier.
 
 
 
 ## Tools Overview
 
-### canerrsim
+### canerrsim (**CAN Error Frame Simulator**)
 
-**CAN Error Frame Simulator** - Generates custom CAN error frames for testing and development purposes.
+- Generates custom CAN error frames for testing and development purposes
 
-Key features:
 - Simulates 30+ different CAN error conditions
 - Supports error class, arbitration loss, protocol errors, transceiver faults
 - Customizable error counters and data payload
 - Real-time error frame generation
 
-### canerrdump
-**CAN Error Frame Monitor** - Displays detailed error frame information from CAN interfaces
+### canerrdump (CAN Error Frame Monitor)
 
-Key features:
+- Displays detailed error frame information from CAN interfaces
 - Flexible error filtering options
 - Human-readable error descriptions
 - Real-time error monitoring
@@ -117,3 +120,12 @@ Dual-licensed under:
 ## History
 
 Originally, **canerrsim** and **canerrdump** were [developed in FreePascal](https://forum.lazarus.freepascal.org/index.php/topic,39858.msg403874.html#msg403874) as part of my SocketCAN wrappers. However, since I frequently use [**can-utils**](https://github.com/linux-can/can-utils) and install them on every CAN-enabled Linux system, I wanted to include these tools in the suite as well. To achieve this, I rewrote both tools in C and [submitted a patch](https://github.com/linux-can/can-utils/issues/525). While only **canerrsim** was accepted into the official repository, I decided to keep both tools here because **canerrdump** offers a more human-friendly output compared to **candump**.
+
+
+
+## Support the Project
+
+If this project has helped you, support is most welcome:
+
+- ⭐ **Star the repository** to show your appreciation.
+- 💬 Share your feedback or success stories in the discussions.
