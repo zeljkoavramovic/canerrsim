@@ -129,4 +129,4 @@ Originally, **canerrsim** and **canerrdump** were [developed in FreePascal](http
 If this project has helped you, support is most welcome:
 
 - ⭐ **Star the repository** to show your appreciation.
-- 💬 Share your feedback or success stories in the discussions.
+- 💬 Share your feedback or success stories in [Discussions](https://github.com/zeljkoavramovic/canerrsim/discussions/1).
